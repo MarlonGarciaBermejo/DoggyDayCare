@@ -4,9 +4,9 @@ const DogInfo = () => {
 
     return (
     
-    <div>
-        
-    </div>
+    <section>
+        <h3>Information about this dog.</h3>
+    </section>
     
     )
     

@@ -3,6 +3,7 @@ import './App.css'
 import Welcome from './components/Welcome'
 import Catalog from './components/Catalog'
 import DogInfo from './components/DogInfo'
+import Navbar from './components/Navbar'
 
 function App() {
 
@@ -13,25 +14,28 @@ function App() {
 
   switch(currentScreen) {
     case WELCOME : 
-    content = <Welcome nextScreen={() => setCurrentScreen(CATALOG) }/>;
+      content = <Welcome nextScreen={() => setCurrentScreen(CATALOG) }/>;
       break;
     case CATALOG :
-      content = <Catalog />
+      content = <Catalog nextScreen = {() => setCurrentScreen(DOGINFO)} />;
       break;
     case DOGINFO : 
-      content = <DogInfo />
+      content = <DogInfo nextScreen = {() => setCurrentScreen(CATALOG)} />;
       break;
     default:
-      content = <Welcome />
+      content = <Welcome />;
 
   }
 
 
   return (
+
     <div>
-   {content}
+      {content}
     </div>
-  )
+
+    
+  );
 }
 
 export default App
