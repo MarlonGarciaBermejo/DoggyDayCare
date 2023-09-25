@@ -5,6 +5,7 @@ import Catalog from './components/Catalog'
 import DogInfo from './components/DogInfo'
 import Navbar from './components/Navbar'
 
+
 function App() {
 
   const WELCOME = 'Welcome', CATALOG = 'Catalog', DOGINFO = 'DogInfo';
@@ -31,11 +32,11 @@ function App() {
   return (
 
     <div>
+      <Navbar/>
       {content}
     </div>
-
     
-  );
+  )
 }
 
 export default App

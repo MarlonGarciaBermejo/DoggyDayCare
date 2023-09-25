@@ -1,7 +1,5 @@
 const DogInfo = () => {
 
-
-
     return (
     
     <section>

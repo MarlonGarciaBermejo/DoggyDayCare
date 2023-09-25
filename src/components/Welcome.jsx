@@ -1,11 +1,14 @@
+import './Welcome.css'
+
 const Welcome = (props) => {
 
 return (
 <section className="content">
 
-<h1 style= {{ fontFamily: 'Poppins', color: 'black'}}>Welcome to <span style={{color: 'orange'}}>DoggyDayCare.</span></h1>
-<h2>We care for your loved ones.</h2>
-<button onClick={props.nextScreen}>Our dogs</button>
+<h1>Welcome to <img className="img" src="/src/assets/animal-icon-png-6266.png" width="85" alt="img"/><span className='span1'>DoggyDayCare.</span></h1>
+<h3 className='h22'>We care for your loved ones.</h3>
+
+<button className='btn1' onClick={props.nextScreen}>Our dogs</button>
 
 </section>
 
