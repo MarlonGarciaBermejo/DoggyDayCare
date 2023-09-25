@@ -1,6 +1,7 @@
 import {useRef} from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
 import "./styles/Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     const navRef = useRef();
@@ -9,16 +10,14 @@ function Navbar() {
         navRef.current.classList.toggle("responsive_nav");
 
     };
-
-
+    
     return(
       <header>
         <h3>DogDay<span className="spann">Care</span></h3>
         <nav ref={navRef}>  
-            <a href="/#">Home</a>
-            <a href="/#">Our dogs</a>
-            <a href="/#">Info</a>
-            <a href="/#">Contact</a>
+            <Link to="/#">Home</Link>
+            <Link to="/components/Catalog">Our dogs</Link>
+        
             <button className="nav-btn nav-close-btn" onClick={showNavBar}>
                 <FaTimes/>
             </button>

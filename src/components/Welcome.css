@@ -1,12 +1,16 @@
 .content {
 font-family: 'Poppins';
 justify-content: center; 
-margin-top: 5rem;
+margin-top: 10rem;
+text-align: center;
+
 
 
 }
 .content .h22{
-   margin-top: 20px;    
+   margin-top: 2rem;  
+
+   
 }
 .span1 {
     color: orange;

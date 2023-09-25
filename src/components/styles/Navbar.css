@@ -7,6 +7,7 @@
 	box-sizing: border-box;
 	font-family: "Poppins";
     font-weight: bold;
+
     
     
     
@@ -20,13 +21,17 @@
 }
 
 header {
-	display: flex;
+
 	align-items: center;
 	justify-content: space-between;
-	height: 80px;
+	height: 50px;
 	padding: 0rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
+    display: flex;
+    margin-top: -8rem;
+
+
    
     
 }
