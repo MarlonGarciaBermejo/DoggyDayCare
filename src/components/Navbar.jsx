@@ -10,13 +10,13 @@ function Navbar() {
         navRef.current.classList.toggle("responsive_nav");
 
     };
-    
+
     return(
       <header>
         <h3>DogDay<span className="spann">Care</span></h3>
         <nav ref={navRef}>  
             <Link to="/#">Home</Link>
-            <Link to="/components/Catalog">Our dogs</Link>
+            <Link to="/Catalog">Our dogs</Link> 
         
             <button className="nav-btn nav-close-btn" onClick={showNavBar}>
                 <FaTimes/>

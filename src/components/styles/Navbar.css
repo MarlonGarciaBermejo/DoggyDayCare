@@ -2,14 +2,12 @@
 
 * {
 
+	
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Poppins";
-    font-weight: bold;
-
-    
-    
+    font-weight: bold; 
     
 }
 
@@ -21,18 +19,17 @@
 }
 
 header {
-
+	
 	align-items: center;
 	justify-content: space-between;
 	height: 50px;
-	padding: 0rem;
+	padding: 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
     display: flex;
     margin-top: -8rem;
-
-
-   
+	font-size: larger;
+	
     
 }
 
