@@ -1,18 +1,16 @@
 import React from 'react';
 import Welcome from './components/Welcome';
 import Catalog from './components/Catalog';
-import DogInfo from './components/DogInfo';
 import Navbar from './components/Navbar';
-import { Route, Routes } from 'react-router-dom'
+import {Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
       <Routes>
         <Route path="/" element={<Welcome />} />
-        <Route path="/Catalog" element={<Catalog />} />
-        <Route path="/DogInfo" element={<DogInfo />} />
+        <Route path="/Catalog" element={<Catalog />} />      
       </Routes>
       </div>
   );

@@ -1,32 +1,20 @@
-.content {
+.content { 
 font-family: 'Poppins';
-justify-content: center; 
-margin-top: 10rem;
 text-align: center;
+padding: 12.5rem;
+color: rgb(34, 34, 34);
 
 }
 .content .h22{
-   margin-top: 2rem;  
+   margin-top: -1rem;  
+   
 
 }
 .span1 {
-    color: orange;
+    color: rgb(255, 162, 0);
 }
-.btn1 {
-    color: rgb(255, 255, 255);
-    font-size: medium;
-    margin-top: 3rem;
-    font-weight: bold;
-    background-color: orange;
-    align-self: center; 
     
-    } 
-    .btn1:hover {
-        background-color: rgb(240, 240, 240);
-        color: rgb(0, 0, 0);
-        border-color: white;
-    }
-    .content .img {
+     .content .img {
      margin-bottom: -1.5rem;
      
     }
