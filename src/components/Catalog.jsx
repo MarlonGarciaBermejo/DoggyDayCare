@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import "./styles/Catalog.css";
+import { Link } from "react-router-dom";
+import './styles/Catalog.css';
 
 function Catalog() {
   const [dogs, setDogs] = useState([]);
@@ -16,21 +17,21 @@ function Catalog() {
       );
 
       if (!response.ok) {
-        throw Error("not working");
+        throw Error("Failed to fetch data");
       }
 
       const data = await response.json();
       setDogs(data.record);
       setIsUpdating(false);
     } catch (error) {
-      console.error("error", error);
+      console.error("Error:", error);
       setIsUpdating(false);
     }
   };
 
   return (
     <div className="catalog">
-      <h1 className="title">Our Dogs</h1>
+      <h1 className="title">Our <span className="spanColor">Dogs</span></h1>
       <br />
       <div className="catalogView">
         {isUpdating ? (
@@ -41,7 +42,14 @@ function Catalog() {
           dogs.map((dog) => (
             <div key={dog.chipNumber} className="dog">
               <img src={dog.img} alt={dog.name} />
-              <h1>{dog.name}</h1>
+              <h1 className="dogColor">{dog.name}</h1>
+              <div className="dog-info"> 
+              <p><strong>Chip Number:</strong> {dog.chipNumber}</p>
+                <p><strong>Breed:</strong> {dog.breed}</p>
+                <p><strong>Sex:</strong> {dog.sex}</p>
+                <p><strong>Age:</strong> {dog.age}</p>
+                <p><strong>Owner:</strong> {dog.owner.name} {dog.owner.lastName}</p>
+              </div>
             </div>
           ))
         )}
