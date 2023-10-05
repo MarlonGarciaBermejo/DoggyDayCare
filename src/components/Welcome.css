@@ -1,25 +1,28 @@
-.content { 
+.content {
     height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-family: 'Poppins';
-    padding: 12.5rem;
-    color: rgb(34, 34, 34);
     background-color: beige;
-    
+    max-width: 1200px;
+    @media (min-width: 768px) {
+        padding: 30%; 
+        font-size: 1rem;
     }
-    .content .h22{
-       margin-top: -1rem;  
-    
-       
-    
+}
+
+.span1 {
+    color: rgb(255, 162, 0);
+}
+
+.content .img {
+    margin-bottom: -1.5rem; 
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 50%; 
+        font-size: 1rem; 
     }
-    .span1 {
-        color: rgb(255, 162, 0);
-    }
-        
-     .content .img {
-     margin-bottom: -1.5rem;
-         
-    }
+}
