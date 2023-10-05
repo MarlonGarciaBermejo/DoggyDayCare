@@ -1,0 +1,27 @@
+.about-content {
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Poppins';
+  background-color: beige;
+    
+    }
+
+    .about-content .title {
+      font-weight: 400;
+
+    }
+    .about-content .title2 {
+      color: black;
+      text-align: center;
+      font-size: xx-large;
+    }
+    .span {
+      color: orange;
+    }
+    p {
+     font-weight: 600;
+     font-size: large;
+     text-align: center;
+    }

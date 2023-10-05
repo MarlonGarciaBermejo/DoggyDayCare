@@ -1,8 +1,10 @@
 import React from 'react';
 import Welcome from './components/Welcome';
 import Catalog from './components/Catalog';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import { HashRouter as Router, Route, Routes } from "react-router-dom"
+
 
 function App() {
   return (
@@ -12,9 +14,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/Catalog" element={<Catalog />} />
-
+          <Route path="/About" element={<About />} />
         </Routes>
-      </Router>
+      </Router> 
     </div>
   );
 }

@@ -9,7 +9,7 @@
 
 .catalog .title {
   font-size: 42px;
-  padding-top: 2em;
+  text-align: center;
 }
 
 .catalogView {
@@ -18,7 +18,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 .dog {
@@ -38,7 +38,9 @@
   height: 200px; 
   object-fit: cover;
   
-  
+}
+.title {
+  color: black;
 }
 
 .dog h1 {
@@ -53,13 +55,13 @@
 
 @media (max-width: 768px) {
   .dog img {
-    height: 150px; /* Adjust image height for smaller screens */
+    height: 150px; 
   }
 }
 
 @media (max-width: 480px) {
   .dog img {
-    height: 100px; /* Adjust image height for even smaller screens */
+    height: 100px; 
   }
 }
 
@@ -76,5 +78,6 @@
 
   .catalog .title {
     font-size: 28px; 
+
   }
 }
