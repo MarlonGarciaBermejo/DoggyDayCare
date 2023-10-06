@@ -1,0 +1,16 @@
+{
+    "slides": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Running_in_the_grass_yard%40Affectionate_Pet_Care.JPG",
+        "alt": "Image 1 for carousel"
+      },
+      {
+        "src": "https://img1.wsimg.com/isteam/ip/a6994d15-4f28-45f0-961c-b54f2e5ee703/fb_2306936776233686_640x640.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25",
+        "alt": "Image 2 for carousel"
+      },
+      {
+        "src": "https://images.destpet.com/is/image/destpet/daycare-with-staff-600px?ts=1669806730172&fmt=png-alpha&dpr=off",
+        "alt": "Image 3 for carousel"
+      }
+    ]
+  }

@@ -37,6 +37,8 @@ function Catalog() {
 
   return (
     <div className="catalog">
+      <br />
+      <br />
       <h1 className="title">Our <span className="spanColor">Dogs</span></h1>
       <br />
       <div className="catalogView">

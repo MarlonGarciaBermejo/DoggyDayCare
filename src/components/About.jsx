@@ -14,7 +14,7 @@ Our dedicated team of experienced and passionate caregivers is here to ensure th
  From the moment they step through our doors, they'll be greeted with smiles and open arms. 
  We're committed to making their time with us enjoyable, comfortable, and filled with exciting activities.
 <br /> <br />
-What to expect at Doggy Delight: <br />
+<h3>What to expect from us:</h3> 
 🐾 A secure and well-maintained facility <br />
 🐾 Supervised playtime with dogs of similar size and temperament <br />
 🐾 Fun-filled outdoor play areas <br />
@@ -30,7 +30,7 @@ Thank you for considering Doggy Delight Daycare Center. We look forward to becom
 
 Warmly,
 <br /><br />
-Team, DoggyDayCare</p>
+Team, <span className='orange'>DoggyDayCare</span></p> 
 </div>
 
 
