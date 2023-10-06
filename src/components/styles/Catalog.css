@@ -1,6 +1,7 @@
 .catalog {
   height: auto;
-  display: flex;
+  width:fit-content;
+  display:flex;
   align-items: center;
   flex-direction: column;
   font-family: 'Poppins';
@@ -16,7 +17,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
   gap: 40px;
 }
