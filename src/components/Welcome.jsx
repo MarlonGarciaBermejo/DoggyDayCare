@@ -8,7 +8,7 @@ const Welcome = () => {
 return (
 <div>
 <section className='content'>
-<h1 className='h11'>Welcome to <img className="img" src="/animal-icon-png-6266.png" width="85" alt="img"/><span className='span1'>DoggyDayCare.</span></h1> <br /><br />
+<h1 className='h11'>Welcome to <img className="img" src="https://www.clker.com/cliparts/B/c/Y/B/n/Z/orange-paw-print-hi.png" width="85" alt="img"/><span className='span1'>DoggyDayCare.</span></h1> <br /><br />
 <Carousel data={slides}/>
 <br />
 <h3><span className='spanC'>We</span> understand that your furry family members are more than just pets; they are cherished companions who deserve the very best care and attention. 

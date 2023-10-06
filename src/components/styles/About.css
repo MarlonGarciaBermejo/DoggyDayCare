@@ -18,7 +18,7 @@
       font-size: xx-large;
     }
     .span {
-      color: orange;
+      color:  rgb(255, 140, 0);
     }
     p {
      font-weight: 600;
@@ -26,5 +26,5 @@
      text-align: center;
     }
     .orange {
-      color: orange;
+      color:  rgb(255, 140, 0);
     }
