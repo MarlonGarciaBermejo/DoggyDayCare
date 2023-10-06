@@ -58,6 +58,8 @@ function Catalog() {
                 <p><strong>Sex:</strong> {dog.sex}</p>
                 <p><strong>Age:</strong> {dog.age}</p>
                 <p><strong>Owner:</strong> {dog.owner.name} {dog.owner.lastName}</p>
+                <p><strong>Phone:</strong> {dog.owner.phoneNumber}</p>
+                
                 </section>
               </div>
             </div>
